@@ -1,0 +1,31 @@
+languageCode = "en-us"
+title = "/var/log/nicknelson.io"
+baseurl = "https://blog.nicknelson.io" # Controls base URL
+paginate = 5 # Number of posts to show before paginating
+
+enableRobotsTXT = true # Suggested, enable robots.txt file
+googleAnalytics = "" # Optional, add tracking Id for analytics
+SectionPagesMenu = "main" # Enable menu system for lazy bloggers
+
+[params]
+  description = "A collection of somewhat finished projects" # Suggested, controls homepage description meta
+  author = "" # Optional, controls author name display on posts
+  show_menu = true # Optional, set false to disable menu entirely
+  powered_by = false # Optional, set false to disable theme credits
+
+  [params.seo]
+    google_verify = "" # Optional, Google verification code
+    bing_verify = "" # Optional, Bing verification code
+    yandex_verify = "" # Optional, Yandex verification code
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    weight = 0
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    weight = 1
+    identifier = "post"
+    url = "/post/"
