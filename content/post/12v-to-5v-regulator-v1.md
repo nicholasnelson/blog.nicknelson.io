@@ -12,7 +12,7 @@ For a stupidly over-the-top personal cooling fan project I’m currently working
 
 The best way to do this that I have been able to work out with my extremely limited knowledge of electronics is to use a 12v wall-wart powering the fans directly, and some kind of regulator to bring that voltage down to the 5v required for my control board.
 
-![Breadboard regulator](/images/bb-reg.png)
+![Breadboard regulator](/images/bb-reg.jpg)
 
 I settled on the LM2940CT 5v voltage regulator as a starting point, and set about breadboarding a test of the regulator.
 This worked really nicely, and gave a stable output voltage close enough to 5v to suit the needs of this project when tested with a multimeter with no load.
